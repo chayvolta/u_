@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-euro-dark antialiased;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* Modificadores estéticos para el Popup de Leaflet */
+.euro-popup .leaflet-popup-content-wrapper {
+  @apply rounded-2xl shadow-xl border border-gray-100 bg-white/95 backdrop-blur-md overflow-hidden;
+}
+
+.euro-popup .leaflet-popup-content {
+  @apply m-3;
+}
+
+.euro-popup .leaflet-popup-tip {
+  @apply bg-white/95 backdrop-blur-md;
+}
+
+.euro-popup .leaflet-popup-close-button {
+  @apply text-gray-400 hover:text-gray-800 transition-colors mt-1 mr-1;
+}
