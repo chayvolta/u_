@@ -7,6 +7,7 @@
 - [ ] Refinar catálogo detallado de cervezas por tienda (Backend Supabase).
 
 ## Hecho
+- [x] Refactorizar geolocalización usando L.control nativo (patrón Refugios): controles visibles en mapa, useUserLocation hook, NearestStoreCard con link a Google Maps Directions.
 - [x] Corregir manualmente coordenadas anómalas (LA COMER CITY MARKET LOMAS).
 - [x] Añadir botón flotante de "Regresar a Vista General" (Reset View) en el mapa.
 - [x] Mejorar popups del mapa y añadir transiciones (flyTo / flyToBounds).
