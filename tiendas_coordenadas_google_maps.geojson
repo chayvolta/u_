@@ -1,0 +1,3138 @@
+{
+  "type": "FeatureCollection",
+  "name": "tiendas_coordenadas_extraidas_google_maps",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "Tienda": "196",
+        "Centro": "23450 CHEDRAUI SELECTO AGUASCALIENTES 05-20",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Aguascalientes",
+        "% Part": "1.4%",
+        "Municipio": "Aguascalientes",
+        "Localidad": "Aguascalientes",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/NPkZnk1S5TVgy25w5",
+        "id": 1,
+        "lat": 21.9262917,
+        "lon": -102.2954731,
+        "tienda_num": 196,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2954731,
+          21.9262917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "Tienda": "126",
+        "Centro": "25600 CHEDRAUI LA PAZ PALACIO 05-10",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Baja California Sur",
+        "% Part": "0.4%",
+        "Municipio": "La Paz",
+        "Localidad": "La Paz",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/iAoQb7vBbxXAeCmZ6",
+        "id": 2,
+        "lat": 24.1501317,
+        "lon": -110.3071815,
+        "tienda_num": 126,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3071815,
+          24.1501317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "Tienda": "127",
+        "Centro": "25500 CHEDRAUI SELECTO LA PAZ COLIMA 05-10",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Baja California Sur",
+        "% Part": "2.2%",
+        "Municipio": "La Paz",
+        "Localidad": "La Paz",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/7Kci2QcWqrVwFA2q8",
+        "id": 3,
+        "lat": 24.1432144,
+        "lon": -110.3313304,
+        "tienda_num": 127,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3313304,
+          24.1432144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "Tienda": "153",
+        "Centro": "LA COMER CASCADA LOS CABOS",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Baja California Sur",
+        "% Part": "1.3%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "San José del Cabo",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/8egpTWYK2rF9FrZs9",
+        "id": 4,
+        "lat": 23.0437146,
+        "lon": -109.7042373,
+        "tienda_num": 153,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7042373,
+          23.0437146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "Tienda": "178",
+        "Centro": "25300 CHEDRAUI SELECTO SAN JOSE DEL CABO 11-17",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Baja California Sur",
+        "% Part": "0.6%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "San José del Cabo",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/2SiPauafuFV5RLuC9",
+        "id": 5,
+        "lat": 23.0439022,
+        "lon": -109.7072257,
+        "tienda_num": 178,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7072257,
+          23.0439022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "Tienda": "330",
+        "Centro": "25800 SUPER CHEDRAUI ARAMBURO LA PAZ FORJADORES 03-25",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Baja California Sur",
+        "% Part": "0.4%",
+        "Municipio": "La Paz",
+        "Localidad": "La Paz",
+        "Productos catalogados": "7",
+        "URL": "https://maps.app.goo.gl/BhQjBQ79digNYf2F6",
+        "id": 6,
+        "lat": 24.1392205,
+        "lon": -110.3115055,
+        "tienda_num": 330,
+        "productos_catalogados_num": 7,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3115055,
+          24.1392205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "Tienda": "333",
+        "Centro": "60002 SUPERCITO SELECTO ARAMBURO LA PAZ MADERO 03-25",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Baja California Sur",
+        "% Part": "0.8%",
+        "Municipio": "La Paz",
+        "Localidad": "La Paz",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/su2deXo1YV24sjUm7",
+        "id": 7,
+        "lat": 24.164076,
+        "lon": -110.3122229,
+        "tienda_num": 333,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3122229,
+          24.164076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "Tienda": "334",
+        "Centro": "25900 SUPER CHEDRAUI ARAMBURO LA PAZ OCAMPO 03-25",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Baja California Sur",
+        "% Part": "0.2%",
+        "Municipio": "La Paz",
+        "Localidad": "La Paz",
+        "Productos catalogados": "7",
+        "URL": "https://maps.app.goo.gl/sRMWgJ7vT6C2Toeg7",
+        "id": 8,
+        "lat": 24.1491466,
+        "lon": -110.3024011,
+        "tienda_num": 334,
+        "productos_catalogados_num": 7,
+        "part_porcentaje_num": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3024011,
+          24.1491466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "Tienda": "398",
+        "Centro": "LA COMER SAN LUCAS",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Baja California Sur",
+        "% Part": "0.8%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "Cabo San Lucas",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/QiuqBjWE8p2dQtiB6",
+        "id": 9,
+        "lat": 22.9008888,
+        "lon": -109.9297779,
+        "tienda_num": 398,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9297779,
+          22.9008888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "Tienda": "421",
+        "Centro": "FRESKO LOS CABOS PALMILLA",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Baja California Sur",
+        "% Part": "0.7%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "San José del Cabo",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/ybPZKxeL4jztD4fE7",
+        "id": 10,
+        "lat": 23.0050872,
+        "lon": -109.7304275,
+        "tienda_num": 421,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7304275,
+          23.0050872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "Tienda": "427",
+        "Centro": "FRESKO SAN LUCAS",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Baja California Sur",
+        "% Part": "0.9%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "Cabo San Lucas",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/YeaFzLm1wWb9Zmuw6",
+        "id": 11,
+        "lat": 22.9071605,
+        "lon": -109.866689,
+        "tienda_num": 427,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.866689,
+          22.9071605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "Tienda": "459",
+        "Centro": "CITY MARKET SAN JOSE DEL CABO",
+        "Cadena": "La Comer",
+        "Formato": "CITY MARKET",
+        "Estado": "Baja California Sur",
+        "% Part": "1.3%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "San José del Cabo",
+        "Productos catalogados": "11",
+        "URL": "https://maps.app.goo.gl/84rRzU7GEuoHaaqDA",
+        "id": 12,
+        "lat": 23.0448804,
+        "lon": -109.7050287,
+        "tienda_num": 459,
+        "productos_catalogados_num": 11,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7050287,
+          23.0448804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "Tienda": "802",
+        "Centro": "25270 SUPER CHEDRAUI SELECTO PTO PARAISO BCS 11-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Baja California Sur",
+        "% Part": "0.5%",
+        "Municipio": "San José del Cabo",
+        "Localidad": "Cabo San Lucas",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/tZnk6bs8et2Cp2bC8",
+        "id": 13,
+        "lat": 22.8882386,
+        "lon": -109.9090748,
+        "tienda_num": 802,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9090748,
+          22.8882386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "Tienda": "13",
+        "Centro": "16200 CHEDRAUI TUXTLA CRYSTAL 06-90",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Chiapas",
+        "% Part": "1.1%",
+        "Municipio": "Tuxtla Gutiérrez",
+        "Localidad": "Tuxtla Gutiérrez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/X7KJ6j4bDDWxiaie6",
+        "id": 14,
+        "lat": 16.753373,
+        "lon": -93.1498693,
+        "tienda_num": 13,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1498693,
+          16.753373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "Tienda": "98",
+        "Centro": "00500 CHEDRAUI SELECTO MEXICO SANTA FE 09-13",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "2.9%",
+        "Municipio": "Cuajimalpa de Morelos",
+        "Localidad": "Cuajimalpa de Morelos",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/DKHxQFF5vkY32gmT6",
+        "id": 15,
+        "lat": 19.3686222,
+        "lon": -99.2582792,
+        "tienda_num": 98,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2582792,
+          19.3686222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "Tienda": "131",
+        "Centro": "LA COMER OLIVAR",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Ciudad de México",
+        "% Part": "2.1%",
+        "Municipio": "Álvaro Obregón",
+        "Localidad": "Álvaro Obregón",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/yc8yW3vzTheEKq6SA",
+        "id": 16,
+        "lat": 19.3347508,
+        "lon": -99.2270525,
+        "tienda_num": 131,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2270525,
+          19.3347508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "Tienda": "137",
+        "Centro": "FRESKO PABELLON BOSQUES",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.5%",
+        "Municipio": "Cuajimalpa de Morelos",
+        "Localidad": "Cuajimalpa de Morelos",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/n1NEAqsqNBYR2SJM9",
+        "id": 17,
+        "lat": 19.3824332,
+        "lon": -99.2675796,
+        "tienda_num": 137,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2675796,
+          19.3824332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "Tienda": "174",
+        "Centro": "00100 CHEDRAUI SELECTO MEXICO FORTUNA 03-17",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "3.0%",
+        "Municipio": "Gustavo A. Madero",
+        "Localidad": "Gustavo A. Madero",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/4yKhL4AxRM8rTboXA",
+        "id": 18,
+        "lat": 19.4832866,
+        "lon": -99.1332592,
+        "tienda_num": 174,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1332592,
+          19.4832866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "Tienda": "177",
+        "Centro": "00300 CHEDRAUI SELECTO MEXICO PEDREGAL 11-18",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "2.0%",
+        "Municipio": "Coayoacán",
+        "Localidad": "Coayoacán",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/E8YiMxaamDFfx8qVA",
+        "id": 19,
+        "lat": 19.3348126,
+        "lon": -99.1983026,
+        "tienda_num": 177,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1983026,
+          19.3348126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "Tienda": "182",
+        "Centro": "02700 SUPER CHEDRAUI SELECTO MEX. OCEANIA 11-21",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "3.6%",
+        "Municipio": "Venustiano Carranza",
+        "Localidad": "Venustiano Carranza",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/8shmhmjYSyfodYt48",
+        "id": 20,
+        "lat": 19.4396998,
+        "lon": -99.0947408,
+        "tienda_num": 182,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 3.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0947408,
+          19.4396998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "Tienda": "232",
+        "Centro": "00400 CHEDRAUI SELECTO MEXICO POLANCO 05-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "2.9%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/LExvaGRPetnf5LBp7",
+        "id": 21,
+        "lat": 19.4405138,
+        "lon": -99.2062678,
+        "tienda_num": 232,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2062678,
+          19.4405138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "Tienda": "233",
+        "Centro": "00760 CHEDRAUI SELECTO MEXICO COAPA 04-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "2.2%",
+        "Municipio": "Coayoacán",
+        "Localidad": "Coayoacán",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/p5setDHPCLhqpEfg8",
+        "id": 22,
+        "lat": 19.3037836,
+        "lon": -99.1186381,
+        "tienda_num": 233,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1186381,
+          19.3037836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "Tienda": "234",
+        "Centro": "00800 CHEDRAUI MEXICO AJUSCO 04-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Ciudad de México",
+        "% Part": "0.6%",
+        "Municipio": "Tlapan",
+        "Localidad": "Tlapan",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/bVYaYmS9fjnZzhYZA",
+        "id": 23,
+        "lat": 19.2992552,
+        "lon": -99.2126499,
+        "tienda_num": 234,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2126499,
+          19.2992552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "Tienda": "235",
+        "Centro": "00700 CHEDRAUI SELECTO MEXICO UNIVERSIDAD 04-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "3.6%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Benito Juárez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/GrbZ9RwiLx4yRMPF9",
+        "id": 24,
+        "lat": 19.3735912,
+        "lon": -99.1625518,
+        "tienda_num": 235,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 3.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1625518,
+          19.3735912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "Tienda": "377",
+        "Centro": "CITY MARKET LOMAS",
+        "Cadena": "La Comer",
+        "Formato": "CITY MARKET",
+        "Estado": "Ciudad de México",
+        "% Part": "1.2%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "11",
+        "URL": "https://maps.app.goo.gl/j8yJnNsCD2A3Qvuv7",
+        "id": 25,
+        "lat": 19.41879,
+        "lon": -99.2146974,
+        "tienda_num": 377,
+        "productos_catalogados_num": 11,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2146974,
+          19.41879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "Tienda": "400",
+        "Centro": "LA COMER LAGO ALBERTO",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Ciudad de México",
+        "% Part": "1.6%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/ZNtwXmPkFsx26QGp8",
+        "id": 26,
+        "lat": 19.4384863,
+        "lon": -99.1794625,
+        "tienda_num": 400,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1794625,
+          19.4384863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "Tienda": "449",
+        "Centro": "CITY MARKET LILAS",
+        "Cadena": "La Comer",
+        "Formato": "CITY MARKET",
+        "Estado": "Ciudad de México",
+        "% Part": "1.0%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "11",
+        "URL": "https://maps.app.goo.gl/W8t2VZHruWKe5wRT7",
+        "id": 27,
+        "lat": 19.3883431,
+        "lon": -99.2479596,
+        "tienda_num": 449,
+        "productos_catalogados_num": 11,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2479596,
+          19.3883431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "Tienda": "551",
+        "Centro": "30004 SUPERCITO SELECTO CDMX AV. LA PAZ 05-24",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.3%",
+        "Municipio": "Álvaro Obregón",
+        "Localidad": "Álvaro Obregón",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/27vfk9qAbERqQBwN9",
+        "id": 28,
+        "lat": 19.3470446,
+        "lon": -99.1879606,
+        "tienda_num": 551,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1879606,
+          19.3470446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "Tienda": "587",
+        "Centro": "28653 SUPERCITO SELECTO GALERIAS POLANCO 10-24",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "1.0%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/gQTRzH7C5hCVaEj19",
+        "id": 29,
+        "lat": 19.4333859,
+        "lon": -99.1838994,
+        "tienda_num": 587,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1838994,
+          19.4333859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "Tienda": "652",
+        "Centro": "02600 SUPER CHEDRAUI SELECTO MEX. SAMARA 11-11",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.4%",
+        "Municipio": "Álvaro Obregón",
+        "Localidad": "Álvaro Obregón",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/vECm4aJUL1K265XCA",
+        "id": 30,
+        "lat": 19.3599723,
+        "lon": -99.2745208,
+        "tienda_num": 652,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2745208,
+          19.3599723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "Tienda": "807",
+        "Centro": "30000 SUPERCITO PRADO NORTE MIGUEL HIDALGO 08-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.2%",
+        "Municipio": "Miguel Hidalgo",
+        "Localidad": "Miguel Hidalgo",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/5FBBCumqy6b7ZvA97",
+        "id": 31,
+        "lat": 19.4278241,
+        "lon": -99.2104603,
+        "tienda_num": 807,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2104603,
+          19.4278241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "Tienda": "814",
+        "Centro": "02770 SUPER CHEDRAUI SELECTO WTC 10-22 SEARS",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "1.1%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Benito Juárez",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/m11ZUBQaDCxSgnpz8",
+        "id": 32,
+        "lat": 19.393856,
+        "lon": -99.1729887,
+        "tienda_num": 814,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 1.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1729887,
+          19.393856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "Tienda": "819",
+        "Centro": "30002 SUPERCITO SELECTO PLAZA INSURGENTES 08-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.6%",
+        "Municipio": "Cuauhtémoc",
+        "Localidad": "Cuauhtémoc",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/BtYCzpMoo1kvR26L7",
+        "id": 33,
+        "lat": 19.4121239,
+        "lon": -99.1647649,
+        "tienda_num": 819,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1647649,
+          19.4121239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "Tienda": "890",
+        "Centro": "30003 SUPERCITO SELECTO TLAX INSURGENTES CUAU 06-24",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Ciudad de México",
+        "% Part": "0.6%",
+        "Municipio": "Cuauhtémoc",
+        "Localidad": "Cuauhtémoc",
+        "Productos catalogados": "4",
+        "URL": "https://maps.app.goo.gl/FnjziPaimr4nHaSD8",
+        "id": 34,
+        "lat": 19.4072335,
+        "lon": -99.1678598,
+        "tienda_num": 890,
+        "productos_catalogados_num": 4,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1678598,
+          19.4072335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "Tienda": "107",
+        "Centro": "LA COMER MANZANILLO",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Colima",
+        "% Part": "1.5%",
+        "Municipio": "Manzanillo",
+        "Localidad": "Manzanillo",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/GR8dNbdnEjqYV9Cs6",
+        "id": 35,
+        "lat": 19.1061593,
+        "lon": -104.3358262,
+        "tienda_num": 107,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3358262,
+          19.1061593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "Tienda": "14",
+        "Centro": "LA COMER LOMAS ANAHUAC",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Estado de México",
+        "% Part": "0.4%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/Z8NQo8b1yrq8mJK29",
+        "id": 36,
+        "lat": 19.3993649,
+        "lon": -99.2747084,
+        "tienda_num": 14,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2747084,
+          19.3993649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "Tienda": "76",
+        "Centro": "FRESKO VALLARTA",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Estado de México",
+        "% Part": "1.6%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Ciudad Satélite",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/kFY9n6THN5mEJ7Rb7",
+        "id": 37,
+        "lat": 19.5040741,
+        "lon": -99.2494125,
+        "tienda_num": 76,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2494125,
+          19.5040741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "Tienda": "106",
+        "Centro": "00600 CHEDRAUI SELECTO MEXICO TOREO 04-15",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "1.4%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/kpf6UGFQbFtoARVN9",
+        "id": 38,
+        "lat": 19.45409,
+        "lon": -99.2190457,
+        "tienda_num": 106,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2190457,
+          19.45409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "Tienda": "109",
+        "Centro": "02650 SUPER CHEDRAUI SELECTO INTERLOMAS HILLS 08-19",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.3%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/KKpzpVc2Lg5ssWdw6",
+        "id": 39,
+        "lat": 19.3929243,
+        "lon": -99.2819881,
+        "tienda_num": 109,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2819881,
+          19.3929243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "Tienda": "236",
+        "Centro": "00770 CHEDRAUI SELECTO MEXICO MUNDO E 04-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.9%",
+        "Municipio": "Tlalnepantla",
+        "Localidad": "Tlalnepantla",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/ro3g2SMjndVzJxjg8",
+        "id": 40,
+        "lat": 19.5248055,
+        "lon": -99.229676,
+        "tienda_num": 236,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.229676,
+          19.5248055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "Tienda": "243",
+        "Centro": "05900 CHEDRAUI SELECTO TOLUCA METEPEC 05-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "1.2%",
+        "Municipio": "Metepec",
+        "Localidad": "Metepec",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/zyRvmjYjBfMGkwhG8",
+        "id": 41,
+        "lat": 19.2586035,
+        "lon": -99.6283934,
+        "tienda_num": 243,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.6283934,
+          19.2586035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "Tienda": "277",
+        "Centro": "06060 CHEDRAUI TOLUCA LERMA DE VILLADA 01-26",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Estado de México",
+        "% Part": "0.8%",
+        "Municipio": "Lerma de Villada",
+        "Localidad": "Lerma de Villada",
+        "Productos catalogados": "4",
+        "URL": "https://maps.app.goo.gl/Ny3i8gmEBHeto83X6",
+        "id": 42,
+        "lat": 19.2849967,
+        "lon": -99.5043745,
+        "tienda_num": 277,
+        "productos_catalogados_num": 4,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5043745,
+          19.2849967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "Tienda": "305",
+        "Centro": "CITY MARKET INTERLOMAS",
+        "Cadena": "La Comer",
+        "Formato": "CITY MARKET",
+        "Estado": "Estado de México",
+        "% Part": "1.0%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "11",
+        "URL": "https://maps.app.goo.gl/srWDrPexHRw4TnrH7",
+        "id": 43,
+        "lat": 19.407241,
+        "lon": -99.272365,
+        "tienda_num": 305,
+        "productos_catalogados_num": 11,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.272365,
+          19.407241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "Tienda": "375",
+        "Centro": "LA COMER BOSQUE ESMERALDA",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Estado de México",
+        "% Part": "2.1%",
+        "Municipio": "Atizapán de Zaragoza",
+        "Localidad": "Ciudad López Mateos",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/PhLLM1c4njSgzrGF9",
+        "id": 44,
+        "lat": 19.5488011,
+        "lon": -99.2874025,
+        "tienda_num": 375,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 2.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2874025,
+          19.5488011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "Tienda": "376",
+        "Centro": "FRESKO TECAMACHALCO",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Estado de México",
+        "% Part": "0.2%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "1",
+        "URL": "https://maps.app.goo.gl/YqEtAY5gpfYk1G8b8",
+        "id": 45,
+        "lat": 19.421515,
+        "lon": -99.2381589,
+        "tienda_num": 376,
+        "productos_catalogados_num": 1,
+        "part_porcentaje_num": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2381589,
+          19.421515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "Tienda": "424",
+        "Centro": "FRESKO AVANDARO",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Estado de México",
+        "% Part": "0.3%",
+        "Municipio": "Valle de Bravo",
+        "Localidad": "Avandaro",
+        "Productos catalogados": "1",
+        "URL": "https://maps.app.goo.gl/A3iLTtHyNFFBTPr88",
+        "id": 46,
+        "lat": 19.1646321,
+        "lon": -100.1246371,
+        "tienda_num": 424,
+        "productos_catalogados_num": 1,
+        "part_porcentaje_num": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.1246371,
+          19.1646321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "Tienda": "432",
+        "Centro": "LA COMER METEPEC TECNOLOGICO",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Estado de México",
+        "% Part": "1.3%",
+        "Municipio": "Metepec",
+        "Localidad": "Metepec",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/qgKzt6YuHmDbLU2m9",
+        "id": 47,
+        "lat": 19.2716912,
+        "lon": -99.5744468,
+        "tienda_num": 432,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5744468,
+          19.2716912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "Tienda": "435",
+        "Centro": "FRESKO LA HERRADURA",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Estado de México",
+        "% Part": "0.8%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/rrywGYZc2ZhBXrJK9",
+        "id": 48,
+        "lat": 19.4168763,
+        "lon": -99.2488736,
+        "tienda_num": 435,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2488736,
+          19.4168763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "Tienda": "446",
+        "Centro": "FRESKO SATELITE",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Estado de México",
+        "% Part": "1.8%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Ciudad Satélite",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/DtiA4YfH8aNJR5cw8",
+        "id": 49,
+        "lat": 19.5093508,
+        "lon": -99.2327036,
+        "tienda_num": 446,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2327036,
+          19.5093508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "Tienda": "455",
+        "Centro": "CITY MARKET SATELITE",
+        "Cadena": "La Comer",
+        "Formato": "CITY MARKET",
+        "Estado": "Estado de México",
+        "% Part": "1.8%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Ciudad Satélite",
+        "Productos catalogados": "11",
+        "URL": "https://maps.app.goo.gl/7K1fAr3mBvPEhZtS7",
+        "id": 50,
+        "lat": 19.5066672,
+        "lon": -99.235362,
+        "tienda_num": 455,
+        "productos_catalogados_num": 11,
+        "part_porcentaje_num": 1.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.235362,
+          19.5066672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "Tienda": "552",
+        "Centro": "28658 SUPERCITO SELECTO LOMAS DE TECAMACHALCO 11-24",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.2%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Tecamachalco",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/odk19uwXb6nAipFn7",
+        "id": 51,
+        "lat": 19.4225672,
+        "lon": -99.2327156,
+        "tienda_num": 552,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2327156,
+          19.4225672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "Tienda": "576",
+        "Centro": "30007 SUPERCITO SELECTO NAUCALPAN CONSCRIPTO 09-24",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.4%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/WRuA8qxyUwGkc7HC9",
+        "id": 52,
+        "lat": 19.4361964,
+        "lon": -99.231167,
+        "tienda_num": 576,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.231167,
+          19.4361964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "Tienda": "667",
+        "Centro": "05000 SUPER CHEDRAUI MEXICO VIVEROS 12-13",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI AB",
+        "Estado": "Estado de México",
+        "% Part": "0.5%",
+        "Municipio": "Tlalnepantla",
+        "Localidad": "Tlalnepantla",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/TSnk7BeC9MReTWiTA",
+        "id": 53,
+        "lat": 19.5238876,
+        "lon": -99.2128448,
+        "tienda_num": 667,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2128448,
+          19.5238876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "Tienda": "808",
+        "Centro": "30001 SUPERCITO SELECTO LOMAS COUNTRY 08-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.3%",
+        "Municipio": "Naucalpan de Juárez",
+        "Localidad": "Naucalpan de Juárez",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/T1K9tQBVpdCekfDn9",
+        "id": 54,
+        "lat": 19.40413,
+        "lon": -99.2813197,
+        "tienda_num": 808,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2813197,
+          19.40413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "Tienda": "858",
+        "Centro": "34000 SUPERCITO SELECTO LA ANTIGUA ATIZAPAN 07-23",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Estado de México",
+        "% Part": "0.5%",
+        "Municipio": "Atizapán de Zaragoza",
+        "Localidad": "Atizapán de Zaragoza",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/NwYGR9gdo2R8yvKTA",
+        "id": 55,
+        "lat": 19.5713273,
+        "lon": -99.3008341,
+        "tienda_num": 858,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.3008341,
+          19.5713273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "Tienda": "267",
+        "Centro": "22670 CHEDRAUI CELAYA CAMPESTRE 09-20",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Guanajuato",
+        "% Part": "1.7%",
+        "Municipio": "Celaya",
+        "Localidad": "Celaya",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/Kd9i9QUsNpUU2gsS6",
+        "id": 56,
+        "lat": 20.5187087,
+        "lon": -100.796429,
+        "tienda_num": 267,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.796429,
+          20.5187087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "Tienda": "317",
+        "Centro": "LA COMER SAN MIGUEL DE ALLENDE",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Guanajuato",
+        "% Part": "1.2%",
+        "Municipio": "San Miguel de Allende",
+        "Localidad": "San Miguel de Allende",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/yZGgRpZoQuqrAnPQ6",
+        "id": 57,
+        "lat": 20.8972526,
+        "lon": -100.7528022,
+        "tienda_num": 317,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7528022,
+          20.8972526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "Tienda": "138",
+        "Centro": "21500 CHEDRAUI SELECTO ACAPULCO DIAMANTE 09-11",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Guerrero",
+        "% Part": "1.3%",
+        "Municipio": "Acapulco de Juárez",
+        "Localidad": "Acapulco de Juárez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/yVpDunhRGYpNJ9i97",
+        "id": 58,
+        "lat": 16.7711505,
+        "lon": -99.7742156,
+        "tienda_num": 138,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.7742156,
+          16.7711505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "Tienda": "779",
+        "Centro": "05460 SUPER CHEDRAUI PACHUCA EXPLANADA 10-20",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI AB",
+        "Estado": "Hidalgo",
+        "% Part": "1.4%",
+        "Municipio": "Pachuca de Soto",
+        "Localidad": "Pachuca de Soto",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/KDWtDXU62NeFuusu9",
+        "id": 59,
+        "lat": 20.0369303,
+        "lon": -98.7968417,
+        "tienda_num": 779,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7968417,
+          20.0369303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "Tienda": "108",
+        "Centro": "24020 CHEDRAUI GUADALAJARA VALLARTA 12-08",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Jalisco",
+        "% Part": "0.8%",
+        "Municipio": "Zapopan",
+        "Localidad": "Zapopan",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/tJz9yhnTULhApZUPA",
+        "id": 60,
+        "lat": 20.6825987,
+        "lon": -103.4339718,
+        "tienda_num": 108,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4339718,
+          20.6825987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "Tienda": "249",
+        "Centro": "24000 CHEDRAUI SELECTO GDL ACUEDUCTO 05-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Jalisco",
+        "% Part": "1.2%",
+        "Municipio": "Zapopan",
+        "Localidad": "Zapopan",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/QrmraqZQ777Gsztw8",
+        "id": 61,
+        "lat": 20.7226293,
+        "lon": -103.4154424,
+        "tienda_num": 249,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4154424,
+          20.7226293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "Tienda": "262",
+        "Centro": "24010 CHEDRAUI SELECTO GUADALAJARA AV. MEXICO 08-19",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Jalisco",
+        "% Part": "1.9%",
+        "Municipio": "Guadalajara",
+        "Localidad": "Guadalajara",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/81ZsvQ7NKB6V3nCK7",
+        "id": 62,
+        "lat": 20.6791505,
+        "lon": -103.399815,
+        "tienda_num": 262,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.399815,
+          20.6791505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "Tienda": "451",
+        "Centro": "FRESKO VALLE REAL",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "Jalisco",
+        "% Part": "2.1%",
+        "Municipio": "Zapopan",
+        "Localidad": "Zapopan",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/MHCjge8BtTnbaVwZA",
+        "id": 63,
+        "lat": 20.7271667,
+        "lon": -103.4516085,
+        "tienda_num": 451,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4516085,
+          20.7271667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "Tienda": "774",
+        "Centro": "22820 SUPER CHEDRAUI SELECTO MORELIA ALTOZANO 10-20",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Michoacán",
+        "% Part": "1.3%",
+        "Municipio": "Morelia",
+        "Localidad": "Morelia",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/NvRHh3HYKn8YafA97",
+        "id": 64,
+        "lat": 19.6739608,
+        "lon": -101.1617597,
+        "tienda_num": 774,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1617597,
+          19.6739608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "Tienda": "99",
+        "Centro": "07900 CHEDRAUI SELECTO OAXACA REFORMA 09-11",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Oaxaca",
+        "% Part": "2.2%",
+        "Municipio": "Oaxaca de Juárez",
+        "Localidad": "Oaxaca de Juárez",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/kZTNd55ydv9UnMfU8",
+        "id": 65,
+        "lat": 17.078255,
+        "lon": -96.7089689,
+        "tienda_num": 99,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7089689,
+          17.078255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "Tienda": "615",
+        "Centro": "17200 CHEDRAUI HUATULCO 12-07",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Oaxaca",
+        "% Part": "2.3%",
+        "Municipio": "Huatulco",
+        "Localidad": "Huatulco",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/YT2h2ASdi2VMgHLBA",
+        "id": 66,
+        "lat": 15.7626278,
+        "lon": -96.1289652,
+        "tienda_num": 615,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1289652,
+          15.7626278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "Tienda": "617",
+        "Centro": "17300 CHEDRAUI PUERTO ESCONDIDO 01-08",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Oaxaca",
+        "% Part": "0.7%",
+        "Municipio": "Puerto Escondido",
+        "Localidad": "Puerto Escondido",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/kTCX3fknvrvXaKLa6",
+        "id": 67,
+        "lat": 15.862452,
+        "lon": -97.0673413,
+        "tienda_num": 617,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0673413,
+          15.862452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "Tienda": "52",
+        "Centro": "06800 CHEDRAUI PUEBLA CRUZ DEL SUR 11-04",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Puebla",
+        "% Part": "1.0%",
+        "Municipio": "Puebla de Zaragoza",
+        "Localidad": "Puebla de Zaragoza",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/1p9pAtMVibFYVLSx5",
+        "id": 68,
+        "lat": 19.0739334,
+        "lon": -98.257617,
+        "tienda_num": 52,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.257617,
+          19.0739334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "Tienda": "422",
+        "Centro": "LA COMER ANGELOPOLIS",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Puebla",
+        "% Part": "1.1%",
+        "Municipio": "Puebla de Zaragoza",
+        "Localidad": "Puebla de Zaragoza",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/oEzxwWBCGUvVa3iJ6",
+        "id": 69,
+        "lat": 18.9989576,
+        "lon": -98.2744033,
+        "tienda_num": 422,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2744033,
+          18.9989576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "Tienda": "668",
+        "Centro": "06700 CHEDRAUI SELECTO PUEBLA ANGELOPOLIS 09-15",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Puebla",
+        "% Part": "1.3%",
+        "Municipio": "Puebla de Zaragoza",
+        "Localidad": "Puebla de Zaragoza",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/e1KxmU9DV3dDsAhp7",
+        "id": 70,
+        "lat": 19.0058214,
+        "lon": -98.2669723,
+        "tienda_num": 668,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2669723,
+          19.0058214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "Tienda": "839",
+        "Centro": "06701 CHEDRAUI SELECTO PUEBLA B CASCATTA 08-24",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Puebla",
+        "% Part": "1.2%",
+        "Municipio": "Puebla de Zaragoza",
+        "Localidad": "Puebla de Zaragoza",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/mworPRYu4Do8DY5X6",
+        "id": 71,
+        "lat": 18.970037,
+        "lon": -98.2852451,
+        "tienda_num": 839,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2852451,
+          18.970037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "Tienda": "186",
+        "Centro": "22250 CHEDRAUI SELECTO QUERETARO JURIQUILLA 11-18",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Querétaro",
+        "% Part": "1.9%",
+        "Municipio": "Juriquilla",
+        "Localidad": "Juriquilla",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/9V9yVtqhW45EXsMDA",
+        "id": 72,
+        "lat": 20.6906977,
+        "lon": -100.4486078,
+        "tienda_num": 186,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4486078,
+          20.6906977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "Tienda": "268",
+        "Centro": "22255 CHEDRAUI SELECTO QUERETARO CENTRO SUR 10-21",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Querétaro",
+        "% Part": "2.0%",
+        "Municipio": "Santiago de Querétaro",
+        "Localidad": "Santiago de Querétaro",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/Kgxc3hAoxe8giRkH8",
+        "id": 73,
+        "lat": 20.5710829,
+        "lon": -100.3601092,
+        "tienda_num": 268,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3601092,
+          20.5710829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "Tienda": "308",
+        "Centro": "22690 SUPER CHEDRAUI QUERETARO CORREGIDORA 11-25",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI AB",
+        "Estado": "Querétaro",
+        "% Part": "0.6%",
+        "Municipio": "Santiago de Querétaro",
+        "Localidad": "Santiago de Querétaro",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/kRY5fz5V53aMeAuv6",
+        "id": 74,
+        "lat": 20.5074095,
+        "lon": -100.4032216,
+        "tienda_num": 308,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4032216,
+          20.5074095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "Tienda": "346",
+        "Centro": "LA COMER PUEBLO NUEVO",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Querétaro",
+        "% Part": "1.7%",
+        "Municipio": "Corregidora",
+        "Localidad": "Corregidora",
+        "Productos catalogados": "7",
+        "URL": "https://maps.app.goo.gl/ZjH5NGRSwUWeCau3A",
+        "id": 75,
+        "lat": 20.5437554,
+        "lon": -100.4303505,
+        "tienda_num": 346,
+        "productos_catalogados_num": 7,
+        "part_porcentaje_num": 1.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4303505,
+          20.5437554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+        "Tienda": "429",
+        "Centro": "LA COMER EL REFUGIO",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Querétaro",
+        "% Part": "0.6%",
+        "Municipio": "Santiago de Querétaro",
+        "Localidad": "Santiago de Querétaro",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/ysabtaGn1KwmiTQ38",
+        "id": 76,
+        "lat": 20.6429041,
+        "lon": -100.3451425,
+        "tienda_num": 429,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3451425,
+          20.6429041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "Tienda": "445",
+        "Centro": "LA COMER JURIQUILLA",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Querétaro",
+        "% Part": "1.6%",
+        "Municipio": "Juriquilla",
+        "Localidad": "Juriquilla",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/ZW6tKP1EkF7xwnEa7",
+        "id": 77,
+        "lat": 20.7199185,
+        "lon": -100.4482552,
+        "tienda_num": 445,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 1.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4482552,
+          20.7199185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "Tienda": "453",
+        "Centro": "LA COMER ALAMOS",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Querétaro",
+        "% Part": "0.8%",
+        "Municipio": "Santiago de Querétaro",
+        "Localidad": "Santiago de Querétaro",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/ap5NqfwrqhBbrfHo7",
+        "id": 78,
+        "lat": 20.607445,
+        "lon": -100.3876906,
+        "tienda_num": 453,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3876906,
+          20.607445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "Tienda": "47",
+        "Centro": "19300 CHEDRAUI SELECTO CANCUN AMERICAS 12-97",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "0.9%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Cancún",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/3t6iBexLjzPxaYab6",
+        "id": 79,
+        "lat": 21.1467721,
+        "lon": -86.8226617,
+        "tienda_num": 47,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8226617,
+          21.1467721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+        "Tienda": "58",
+        "Centro": "20500 CHEDRAUI COZUMEL CENTRO 12-98",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.8%",
+        "Municipio": "Cozumel",
+        "Localidad": "Cozumel",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/Du8jwj5yLy7CSveW6",
+        "id": 80,
+        "lat": 20.5023816,
+        "lon": -86.9579499,
+        "tienda_num": 58,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9579499,
+          20.5023816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "properties": {
+        "Tienda": "62",
+        "Centro": "20701 CHEDRAUI PLAYA DEL CARMEN CENTRO 10-01",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "1.4%",
+        "Municipio": "Playa del Carmen",
+        "Localidad": "Playa del Carmen",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/n74AGDN6kscamFFC6",
+        "id": 81,
+        "lat": 20.6252783,
+        "lon": -87.0846731,
+        "tienda_num": 62,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0846731,
+          20.6252783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "properties": {
+        "Tienda": "69",
+        "Centro": "21300 CHEDRAUI CHETUMAL INSURGENTES 12-03",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.4%",
+        "Municipio": "Chetumal",
+        "Localidad": "Chetumal",
+        "Productos catalogados": "4",
+        "URL": "https://maps.app.goo.gl/ysaT9Qdea4ptCtFP9",
+        "id": 82,
+        "lat": 18.5202257,
+        "lon": -88.3204679,
+        "tienda_num": 69,
+        "productos_catalogados_num": 4,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3204679,
+          18.5202257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "properties": {
+        "Tienda": "86",
+        "Centro": "21160 SUPER CHEDRAUI HOLBOX 12-25",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.5%",
+        "Municipio": "Lázaro Cárdenas",
+        "Localidad": "Holbox",
+        "Productos catalogados": "1",
+        "URL": "https://maps.app.goo.gl/6yey8pxeFJcX5Xh89",
+        "id": 83,
+        "lat": 21.5234417,
+        "lon": -87.3793755,
+        "tienda_num": 86,
+        "productos_catalogados_num": 1,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3793755,
+          21.5234417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "properties": {
+        "Tienda": "90",
+        "Centro": "20700 CHEDRAUI PLAYA DEL CARMEN AMERICAS 03-07",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "1.2%",
+        "Municipio": "Playa del Carmen",
+        "Localidad": "Playa del Carmen",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/uaPihkobVSSgqW2b6",
+        "id": 84,
+        "lat": 20.6490053,
+        "lon": -87.083377,
+        "tienda_num": 90,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.083377,
+          20.6490053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "properties": {
+        "Tienda": "153",
+        "Centro": "20450 CHEDRAUI SELECTO TULUM IPAE 10-11",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "1.2%",
+        "Municipio": "Tulum",
+        "Localidad": "Tulum",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/q2zPSgaBeQUcZwhf7",
+        "id": 85,
+        "lat": 20.2115397,
+        "lon": -87.4501557,
+        "tienda_num": 153,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4501557,
+          20.2115397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "properties": {
+        "Tienda": "199",
+        "Centro": "20702 CHEDRAUI PLAYA DEL CARMEN VELAMAR 11-18",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "1.0%",
+        "Municipio": "Playa del Carmen",
+        "Localidad": "Playa del Carmen",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/aUsf9WLtyXcxycnu6",
+        "id": 86,
+        "lat": 20.6704832,
+        "lon": -87.0602798,
+        "tienda_num": 199,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0602798,
+          20.6704832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "properties": {
+        "Tienda": "255",
+        "Centro": "19350 CHEDRAUI SELECTO CANCUN KABAH 06-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "1.3%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Cancún",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/3PSX5wV7THR2Ms6f8",
+        "id": 87,
+        "lat": 21.1535596,
+        "lon": -86.840852,
+        "tienda_num": 255,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.840852,
+          21.1535596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "properties": {
+        "Tienda": "274",
+        "Centro": "19355 CHEDRAUI SELECTO CANCUN HUAYACAN 11-24",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "2.0%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Cancún",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/EbEbNQt6sXEGGHhdA",
+        "id": 88,
+        "lat": 21.0978855,
+        "lon": -86.8654763,
+        "tienda_num": 274,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8654763,
+          21.0978855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "properties": {
+        "Tienda": "458",
+        "Centro": "LA COMER TULUM",
+        "Cadena": "La Comer",
+        "Formato": "LA COMER",
+        "Estado": "Quintana Roo",
+        "% Part": "1.9%",
+        "Municipio": "Tulúm",
+        "Localidad": "Tulúm",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/M36xdmQvuU6pT13J6",
+        "id": 89,
+        "lat": 20.2132784,
+        "lon": -87.4516195,
+        "tienda_num": 458,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4516195,
+          20.2132784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "properties": {
+        "Tienda": "651",
+        "Centro": "21000 CHEDRAUI PUERTO AVENTURAS 12-10",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.8%",
+        "Municipio": "Playa del Carmen",
+        "Localidad": "Puerto Aventuras",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/c3TLSQV3DURppDwv8",
+        "id": 90,
+        "lat": 20.5090504,
+        "lon": -87.2253799,
+        "tienda_num": 651,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2253799,
+          20.5090504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "properties": {
+        "Tienda": "663",
+        "Centro": "21100 SUPER CHEDRAUI PUERTO MORELOS CENTRO 10-14",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.5%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Puerto Morelos",
+        "Productos catalogados": "3",
+        "URL": "https://maps.app.goo.gl/eP34swJnwY7xwYAu6",
+        "id": 91,
+        "lat": 20.85655,
+        "lon": -86.898308,
+        "tienda_num": 663,
+        "productos_catalogados_num": 3,
+        "part_porcentaje_num": 0.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.898308,
+          20.85655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "properties": {
+        "Tienda": "665",
+        "Centro": "20300 SUPER CHEDRAUI SELECTO CANCUN ZONA H 10-14",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "0.8%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Cancún",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/M78TQsmYqSEDR34G6",
+        "id": 92,
+        "lat": 21.1357176,
+        "lon": -86.7481764,
+        "tienda_num": 665,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 0.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7481764,
+          21.1357176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "properties": {
+        "Tienda": "723",
+        "Centro": "21150 SUPER CHEDRAUI PUERTO MORELOS PLAYA 11-18",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI AB",
+        "Estado": "Quintana Roo",
+        "% Part": "0.6%",
+        "Municipio": "Benito Juárez",
+        "Localidad": "Puerto Morelos",
+        "Productos catalogados": "7",
+        "URL": "https://maps.app.goo.gl/6pTyy2tbKrDVk7PC6",
+        "id": 93,
+        "lat": 20.8466419,
+        "lon": -86.8771304,
+        "tienda_num": 723,
+        "productos_catalogados_num": 7,
+        "part_porcentaje_num": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8771304,
+          20.8466419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "properties": {
+        "Tienda": "801",
+        "Centro": "20900 SUPER CHEDRAUI SELECTO PLAYA DEL CARMEN 10-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Quintana Roo",
+        "% Part": "3.9%",
+        "Municipio": "Playa del Carmen",
+        "Localidad": "Playa del Carmen",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/uFwaYPm8QxGpVUhVA",
+        "id": 94,
+        "lat": 20.6350344,
+        "lon": -87.0679594,
+        "tienda_num": 801,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 3.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0679594,
+          20.6350344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "properties": {
+        "Tienda": "251",
+        "Centro": "23200 CHEDRAUI SELECTO SAN LUIS POTOSI EL DORADO 05-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "San Luis Potosí",
+        "% Part": "1.0%",
+        "Municipio": "San Luis Potosí",
+        "Localidad": "San Luis Potosí",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/vkusanre8bEFt74J8",
+        "id": 95,
+        "lat": 22.155129,
+        "lon": -101.0036898,
+        "tienda_num": 251,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.0036898,
+          22.155129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "properties": {
+        "Tienda": "443",
+        "Centro": "FRESKO LOMAS SAN LUIS POTOSI",
+        "Cadena": "La Comer",
+        "Formato": "FRESKO",
+        "Estado": "San Luis Potosí",
+        "% Part": "1.8%",
+        "Municipio": "San Luis Potosí",
+        "Localidad": "San Luis Potosí",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/PuAed9UrAgkUWu1A9",
+        "id": 96,
+        "lat": 22.1293478,
+        "lon": -101.0225084,
+        "tienda_num": 443,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 1.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.0225084,
+          22.1293478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "properties": {
+        "Tienda": "24",
+        "Centro": "14300 CHEDRAUI SELECTO VILLA OLMECA 10-94",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Tabasco",
+        "% Part": "1.7%",
+        "Municipio": "Centro",
+        "Localidad": "Villahermosa",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/TdBcGY7nt3XZrRW38",
+        "id": 97,
+        "lat": 17.9950742,
+        "lon": -92.9432679,
+        "tienda_num": 24,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9432679,
+          17.9950742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "properties": {
+        "Tienda": "322",
+        "Centro": "15020 CHEDRAUI SELECTO VILLAHERMOSA BICENTENARIO 11-25",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Tabasco",
+        "% Part": "1.2%",
+        "Municipio": "Centro",
+        "Localidad": "Villahermosa",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/RXnwXkirPjogcS5r5",
+        "id": 98,
+        "lat": 18.0099744,
+        "lon": -92.979041,
+        "tienda_num": 322,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.979041,
+          18.0099744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "properties": {
+        "Tienda": "812",
+        "Centro": "14350 CHEDRAUI SELECTO VILLAHERMOSA ALTABRISA SEARS 12-22",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Tabasco",
+        "% Part": "1.1%",
+        "Municipio": "Centro",
+        "Localidad": "Villahermosa",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/FsxfSeba1pPxi6jj9",
+        "id": 99,
+        "lat": 17.9659989,
+        "lon": -92.9403857,
+        "tienda_num": 812,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9403857,
+          17.9659989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "properties": {
+        "Tienda": "59",
+        "Centro": "09000 CHEDRAUI SELECTO XALAPA ANIMAS 06-00",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Veracruz",
+        "% Part": "1.7%",
+        "Municipio": "Xalapa-Enríquez",
+        "Localidad": "Xalapa",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/vr593zPNFHAcb2wcA",
+        "id": 100,
+        "lat": 19.52094,
+        "lon": -96.884384,
+        "tienda_num": 59,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 1.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.884384,
+          19.52094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "properties": {
+        "Tienda": "139",
+        "Centro": "10000 CHEDRAUI SELECTO VERACRUZ EL DORADO 11-12",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Veracruz",
+        "% Part": "0.7%",
+        "Municipio": "Boca del Río",
+        "Localidad": "Boca del Río",
+        "Productos catalogados": "9",
+        "URL": "https://maps.app.goo.gl/jiLUjfPFZUtqA9Mo9",
+        "id": 101,
+        "lat": 19.0930009,
+        "lon": -96.1034407,
+        "tienda_num": 139,
+        "productos_catalogados_num": 9,
+        "part_porcentaje_num": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1034407,
+          19.0930009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "properties": {
+        "Tienda": "270",
+        "Centro": "09450 CHEDRAUI XALAPA EL JUGUETE 12-23",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Veracruz",
+        "% Part": "0.4%",
+        "Municipio": "Xalapa-Enríquez",
+        "Localidad": "Xalapa",
+        "Productos catalogados": "4",
+        "URL": "https://maps.app.goo.gl/soVVL5N1ZKChufXv7",
+        "id": 102,
+        "lat": 19.5068799,
+        "lon": -96.8568866,
+        "tienda_num": 270,
+        "productos_catalogados_num": 4,
+        "part_porcentaje_num": 0.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8568866,
+          19.5068799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "properties": {
+        "Tienda": "789",
+        "Centro": "11020 SUPER CHEDRAUI SELECTO JUAN PABLO II 11-21",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Veracruz",
+        "% Part": "2.2%",
+        "Municipio": "Veracruz",
+        "Localidad": "Veracruz",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/5UnD1Qzyu4sxRu859",
+        "id": 103,
+        "lat": 19.160648,
+        "lon": -96.1187461,
+        "tienda_num": 789,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1187461,
+          19.160648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "properties": {
+        "Tienda": "821",
+        "Centro": "36000 SUPERCITO SELECTO VERACRUZ COSTA DE ORO 10-22",
+        "Cadena": "Chedraui",
+        "Formato": "SUPERCITO SELECTO",
+        "Estado": "Veracruz",
+        "% Part": "0.9%",
+        "Municipio": "Boca del Río",
+        "Localidad": "Boca del Río",
+        "Productos catalogados": "5",
+        "URL": "https://maps.app.goo.gl/cTgiU6dDUYWAyvTU9",
+        "id": 104,
+        "lat": 19.1542639,
+        "lon": -96.1000289,
+        "tienda_num": 821,
+        "productos_catalogados_num": 5,
+        "part_porcentaje_num": 0.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1000289,
+          19.1542639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "properties": {
+        "Tienda": "78",
+        "Centro": "19000 SUPER CHEDRAUI SELECTO MERIDA MONTER 11-16",
+        "Cadena": "Chedraui",
+        "Formato": "SUPER CHEDRAUI SELECTO",
+        "Estado": "Yucatán",
+        "% Part": "2.8%",
+        "Municipio": "Mérida",
+        "Localidad": "Mérida",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/8hLgmeL7GeGef3oTA",
+        "id": 105,
+        "lat": 21.0205663,
+        "lon": -89.5971135,
+        "tienda_num": 78,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5971135,
+          21.0205663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "properties": {
+        "Tienda": "135",
+        "Centro": "18600 CHEDRAUI MERIDA CAUCEL 06-11",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI AB",
+        "Estado": "Yucatán",
+        "% Part": "1.2%",
+        "Municipio": "Mérida",
+        "Localidad": "Mérida",
+        "Productos catalogados": "8",
+        "URL": "https://maps.app.goo.gl/nj5ddiJMqxfWhotY6",
+        "id": 106,
+        "lat": 21.0054977,
+        "lon": -89.6903499,
+        "tienda_num": 135,
+        "productos_catalogados_num": 8,
+        "part_porcentaje_num": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6903499,
+          21.0054977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "properties": {
+        "Tienda": "253",
+        "Centro": "18300 CHEDRAUI SELECTO MERIDA NORTE 06-05",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Yucatán",
+        "% Part": "2.2%",
+        "Municipio": "Mérida",
+        "Localidad": "Mérida",
+        "Productos catalogados": "10",
+        "URL": "https://maps.app.goo.gl/Vb4GkKYM5zzLUSaE9",
+        "id": 107,
+        "lat": 21.0300704,
+        "lon": -89.6301211,
+        "tienda_num": 253,
+        "productos_catalogados_num": 10,
+        "part_porcentaje_num": 2.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6301211,
+          21.0300704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "properties": {
+        "Tienda": "281",
+        "Centro": "18310 CHEDRAUI SELECTO MERIDA ALTABRISA 09-24",
+        "Cadena": "Chedraui",
+        "Formato": "CHEDRAUI SELECTO",
+        "Estado": "Yucatán",
+        "% Part": "1.8%",
+        "Municipio": "Mérida",
+        "Localidad": "Mérida",
+        "Productos catalogados": "7",
+        "URL": "https://maps.app.goo.gl/p1Cxn1WTYUYnxsPG7",
+        "id": 108,
+        "lat": 21.0206271,
+        "lon": -89.5791584,
+        "tienda_num": 281,
+        "productos_catalogados_num": 7,
+        "part_porcentaje_num": 1.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5791584,
+          21.0206271
+        ]
+      }
+    }
+  ]
+}
