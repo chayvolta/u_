@@ -1,10 +1,37 @@
 import { MapContainer, TileLayer, useMap, CircleMarker, Popup } from 'react-leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
 import { useEffect, useMemo, useRef } from 'react';
 import { StoreMarker } from './StoreMarker';
 import { DEFAULT_CENTER, DEFAULT_ZOOM, getStoresBounds } from '../../../lib/mapUtils';
 
-// ── Ajustar bounds al cambiar filtros ────────────────
+// ── Icono de cluster premium ─────────────────────────────────
+function createClusterIcon(cluster) {
+  const count = cluster.getChildCount();
+
+  // Tamaño escalonado según densidad
+  let size, fontSize, ringSize;
+  if (count < 5)        { size = 40; fontSize = 13; ringSize = 50; }
+  else if (count < 15)  { size = 46; fontSize = 14; ringSize = 58; }
+  else if (count < 40)  { size = 52; fontSize = 15; ringSize = 66; }
+  else                  { size = 58; fontSize = 16; ringSize = 74; }
+
+  const html = `
+    <div class="euro-cluster" style="width:${size}px;height:${size}px;">
+      <div class="euro-cluster__ring" style="width:${ringSize}px;height:${ringSize}px;"></div>
+      <span class="euro-cluster__count" style="font-size:${fontSize}px;">${count}</span>
+    </div>
+  `;
+
+  return L.divIcon({
+    html,
+    className: '',
+    iconSize: [ringSize, ringSize],
+    iconAnchor: [ringSize / 2, ringSize / 2],
+  });
+}
+
+// ── Ajustar bounds al cambiar filtros ────────────────────────
 function FitStoreBounds({ stores, userLocation }) {
   const map = useMap();
   const fittedOnceRef = useRef(false);
@@ -32,7 +59,7 @@ function FitStoreBounds({ stores, userLocation }) {
   return null;
 }
 
-// ── Botón "Vista General" como L.control nativo ─────
+// ── Botón "Vista General" ────────────────────────────────────
 function ResetViewControl({ stores, userLocation }) {
   const map = useMap();
 
@@ -63,7 +90,6 @@ function ResetViewControl({ stores, userLocation }) {
         const storeBounds = getStoresBounds(stores) ?? [];
         const userPoint = userLocation ? [[userLocation.lat, userLocation.lng]] : [];
         const points = [...storeBounds, ...userPoint];
-
         if (points.length > 1) {
           map.flyToBounds(points, { padding: [50, 50], maxZoom: 14, duration: 1.2 });
         } else if (points.length === 1) {
@@ -82,7 +108,7 @@ function ResetViewControl({ stores, userLocation }) {
   return null;
 }
 
-// ── Botón "Usar mi ubicación" como L.control nativo ─
+// ── Botón "Mi ubicación" ─────────────────────────────────────
 function UserLocationControl({ hasLocation, loading, onRequestLocation, onClearLocation }) {
   const map = useMap();
 
@@ -127,18 +153,20 @@ function UserLocationControl({ hasLocation, loading, onRequestLocation, onClearL
   return null;
 }
 
-// ── Fly to user + nearest store cuando se obtiene ubicación ─
+// ── Fly to user + nearest store ──────────────────────────────
 function FlyToUserAndNearest({ userLocation, nearestStore }) {
   const map = useMap();
   const prevLocationRef = useRef(null);
 
   useEffect(() => {
     if (!userLocation) return;
-    if (prevLocationRef.current?.lat === userLocation.lat && prevLocationRef.current?.lng === userLocation.lng) return;
+    if (
+      prevLocationRef.current?.lat === userLocation.lat &&
+      prevLocationRef.current?.lng === userLocation.lng
+    ) return;
     prevLocationRef.current = userLocation;
 
     const userPoint = [userLocation.lat, userLocation.lng];
-
     if (nearestStore?.latitude && nearestStore?.longitude) {
       const storePoint = [nearestStore.latitude, nearestStore.longitude];
       const bounds = L.latLngBounds([userPoint, storePoint]);
@@ -151,7 +179,7 @@ function FlyToUserAndNearest({ userLocation, nearestStore }) {
   return null;
 }
 
-// ── Marcador de ubicación del usuario ────────────────
+// ── Marcador del usuario ─────────────────────────────────────
 function UserLocationMarker({ location }) {
   if (!location) return null;
 
@@ -169,7 +197,7 @@ function UserLocationMarker({ location }) {
   );
 }
 
-// ── Componente principal del mapa ────────────────────
+// ── Componente principal ─────────────────────────────────────
 export function MapView({
   stores,
   loading,
@@ -199,6 +227,7 @@ export function MapView({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+
         <FitStoreBounds stores={stores} userLocation={userLocation} />
         <ResetViewControl stores={stores} userLocation={userLocation} />
         <UserLocationControl
@@ -209,9 +238,27 @@ export function MapView({
         />
         <FlyToUserAndNearest userLocation={userLocation} nearestStore={nearestStore} />
         <UserLocationMarker location={userLocation} />
-        {stores.map((store) => (
-          <StoreMarker key={store.id} store={store} />
-        ))}
+
+        {/* ── Cluster premium ──────────────────────────────── */}
+        <MarkerClusterGroup
+          iconCreateFunction={createClusterIcon}
+          chunkedLoading
+          maxClusterRadius={60}
+          spiderfyOnMaxZoom
+          showCoverageOnHover={false}
+          zoomToBoundsOnClick
+          animate
+          animateAddingMarkers={false}
+          removeOutsideVisibleBounds
+        >
+          {stores.map((store) => (
+            <StoreMarker
+              key={store.id}
+              store={store}
+              isNearest={Boolean(nearestStore && nearestStore.id === store.id)}
+            />
+          ))}
+        </MarkerClusterGroup>
       </MapContainer>
     </div>
   );
