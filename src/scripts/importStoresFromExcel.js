@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 const tiendasXlsxPath  = path.resolve(__dirname, '../../tiendas_coordenadas_google_maps.xlsx');
 const geojsonPath      = path.resolve(__dirname, '../../tiendas_coordenadas_google_maps.geojson');
 const catalogoPath     = path.resolve(__dirname, '../../260605_Hoja de catálogo_La Comer_Augusto.xlsx');
+const beerPath         = path.resolve(__dirname, '../data/Cards_Beers.xlsx');
 const outputMockPath   = path.resolve(__dirname, '../data/mockStores.js');
 
 // ── Normalizar nombre de cadena ───────────────────────────────
@@ -22,23 +23,62 @@ function normalizeChain(raw) {
 }
 
 function buildData() {
+  // ── 0. Leer características de cervezas (Cards_Beers.xlsx) ────
+  console.log('Leyendo características de cervezas:', beerPath);
+  const bufBeer = fs.readFileSync(beerPath);
+  const wbBeer = XLSX.read(bufBeer, { type: 'buffer' });
+  const sheetBeer = wbBeer.Sheets[wbBeer.SheetNames[0]];
+  const beerRows = XLSX.utils.sheet_to_json(sheetBeer);
+  
+  const cleanStr = (val) => {
+    if (val === undefined || val === null) return null;
+    const s = val.toString().trim();
+    return s === '?' ? null : s;
+  };
+
+  const beerMap = {};
+  beerRows.forEach(b => {
+    const id = b.ID?.toString()?.trim();
+    if (id) {
+      beerMap[id] = {
+        id: id,
+        name: cleanStr(b.Nombre),
+        title: cleanStr(b.Titulo),
+        text: cleanStr(b.Texto),
+        abv: (b.ABV !== undefined && b.ABV !== '?' && !isNaN(parseFloat(b.ABV))) ? parseFloat(b.ABV) : null,
+        ml: (b.ML !== undefined && b.ML !== '?' && !isNaN(parseInt(b.ML, 10))) ? parseInt(b.ML, 10) : null,
+        img: cleanStr(b.IMG),
+      };
+    }
+  });
+  console.log(`  → ${Object.keys(beerMap).length} cervezas leídas`);
+
   // ── 1. Leer catálogo de productos (join por Tienda) ───────────
   console.log('Leyendo catálogo de productos:', catalogoPath);
   const bufCat = fs.readFileSync(catalogoPath);
   const wbCat  = XLSX.read(bufCat, { type: 'buffer' });
 
-  // Hoja1: A=Alcances, B=Tienda, C=Centro, D=Estado, E=UPC, F=Descripción Cliente
   const catalogByStore = {};
-  if (wbCat.Sheets['Hoja1']) {
-    const catData = XLSX.utils.sheet_to_json(wbCat.Sheets['Hoja1'], { header: 'A' });
-    catData.slice(1).forEach(row => {
-      const tienda = row['B']?.toString()?.trim();
+  const sheetCat = wbCat.Sheets['Horizontal'];
+  if (sheetCat) {
+    const catData = XLSX.utils.sheet_to_json(sheetCat);
+    catData.forEach(row => {
+      const tienda = row['Tienda']?.toString()?.trim();
       if (!tienda) return;
       if (!catalogByStore[tienda]) catalogByStore[tienda] = [];
-      catalogByStore[tienda].push({
-        upc:         row['E']?.toString() || null,
-        description: row['F']?.toString()?.trim() || null,
-      });
+
+      for (let i = 1; i <= 11; i++) {
+        const upc = row[`UPC ${i}`]?.toString()?.trim();
+        const description = row[`Descripción ${i}`]?.toString()?.trim();
+        if (upc) {
+          const beerDetails = beerMap[upc] || null;
+          catalogByStore[tienda].push({
+            upc: upc,
+            description: description || (beerDetails ? beerDetails.name : null),
+            beer_details: beerDetails
+          });
+        }
+      }
     });
   }
   console.log(`  → ${Object.keys(catalogByStore).length} tiendas con productos en catálogo`);

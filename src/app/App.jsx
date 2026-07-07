@@ -1,11 +1,12 @@
 import { useState, useCallback } from 'react';
-import { SlidersHorizontal, X, MapPin, Navigation } from 'lucide-react';
+import { SlidersHorizontal, X, Navigation } from 'lucide-react';
 import { useStoresMapData } from '../features/map/hooks/useStoresMapData';
 import { useStoreFilters } from '../features/filters/hooks/useStoreFilters';
 import { useUserLocation } from '../hooks/useUserLocation';
 import { MapView } from '../features/map/components/MapView';
 import { FilterPanel } from '../features/filters/components/FilterPanel';
 import { NearestStoreCard } from '../features/map/components/NearestStoreCard';
+import { ProductDetailModal } from '../features/map/components/ProductDetailModal';
 import { calculateDistanceKm, formatDistanceKm } from '../lib/mapUtils';
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
   const { filters, updateFilter, clearFilters, filteredStores, options } = useStoreFilters(stores);
   const userLoc = useUserLocation();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   // Enriquecer tiendas con distancia si hay ubicación del usuario
   const visibleStores = userLoc.location
@@ -90,15 +92,17 @@ export function App() {
   return (
     <div className="flex flex-col h-[100dvh] w-screen overflow-hidden bg-euro-dark text-white font-sans">
       {/* ── Header ──────────────────────────────────────────── */}
-      <header className="h-14 md:h-16 flex justify-between items-center px-4 md:px-6 border-b border-white/10 bg-gradient-to-r from-black to-euro-dark shadow-md z-30 flex-shrink-0">
+      <header className="h-14 md:h-16 flex justify-between items-center px-4 md:px-6 border-b border-white/10 bg-[#898989] shadow-md z-30 flex-shrink-0">
         <div className="flex items-center gap-2 md:gap-3 min-w-0">
-          <div className="w-7 h-7 md:w-8 md:h-8 rounded-lg bg-gradient-to-br from-euro-primary to-euro-accent shadow-[0_0_15px_rgba(230,161,29,0.5)] flex items-center justify-center flex-shrink-0">
-            <span className="font-bold text-black leading-none text-sm">E</span>
-          </div>
-          <h1 className="text-base md:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 tracking-wide truncate">
-            Eurocervezas Geoportal
+          <img 
+            src="https://eurocervezas.mx/wp-content/uploads/2023/02/LogoEurocervezas-Mixto-1.png" 
+            alt="Eurocervezas Logo" 
+            className="h-7 md:h-8 object-contain drop-shadow-md"
+          />
+          <h1 className="text-base md:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 tracking-wide truncate ml-2">
+            Geoportal
           </h1>
-          <span className="hidden sm:inline ml-1 text-[10px] uppercase tracking-wider bg-euro-accent/20 border border-euro-accent/50 px-2 py-0.5 rounded-full text-euro-accent font-bold backdrop-blur-md flex-shrink-0">
+          <span className="hidden sm:inline ml-1 text-[10px] uppercase tracking-wider bg-euro-primary/20 border border-euro-primary/50 px-2 py-0.5 rounded-full text-euro-primary font-bold backdrop-blur-md flex-shrink-0">
             BETA
           </span>
         </div>
@@ -131,6 +135,7 @@ export function App() {
             onRequestUserLocation={userLoc.requestLocation}
             onClearUserLocation={userLoc.clearLocation}
             nearestStore={nearestStore}
+            onSelectProduct={setSelectedProduct}
           />
         </section>
 
@@ -194,7 +199,7 @@ export function App() {
         <button
           onClick={() => setDrawerOpen(true)}
           className="flex items-center gap-2 px-5 py-3 rounded-2xl bg-euro-dark text-white font-bold text-sm shadow-2xl border border-white/10 active:scale-95 transition-transform"
-          style={{ boxShadow: '0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(230,161,29,0.3)' }}
+          style={{ boxShadow: '0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(227,6,19,0.3)' }}
           aria-label="Abrir filtros"
         >
           <SlidersHorizontal size={16} className="text-euro-primary" />
@@ -229,6 +234,14 @@ export function App() {
           )}
         </button>
       </div>
+
+      {/* Modal de Detalle de Cerveza */}
+      {selectedProduct && (
+        <ProductDetailModal
+          product={selectedProduct}
+          onClose={() => setSelectedProduct(null)}
+        />
+      )}
     </div>
   );
 }

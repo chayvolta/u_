@@ -206,6 +206,7 @@ export function MapView({
   onRequestUserLocation,
   onClearUserLocation,
   nearestStore,
+  onSelectProduct,
 }) {
   if (loading) {
     return (
@@ -256,6 +257,7 @@ export function MapView({
               key={store.id}
               store={store}
               isNearest={Boolean(nearestStore && nearestStore.id === store.id)}
+              onSelectProduct={onSelectProduct}
             />
           ))}
         </MarkerClusterGroup>

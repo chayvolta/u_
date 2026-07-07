@@ -125,9 +125,9 @@
   filter: drop-shadow(0 8px 18px rgba(37, 99, 235, 0.35));
 }
 
-/* ─── Euro Popup (Glassmorphism) ────────────────────── */
+/* ─── Euro Popup (Dark Glassmorphism) ────────────────── */
 .euro-popup .leaflet-popup-content-wrapper {
-  @apply rounded-2xl shadow-xl border border-gray-100 bg-white/95 backdrop-blur-md overflow-hidden;
+  @apply rounded-2xl shadow-[0_12px_36px_rgba(0,0,0,0.55)] border border-white/10 bg-neutral-900/95 backdrop-blur-md overflow-hidden text-white;
 }
 
 .euro-popup .leaflet-popup-content {
@@ -135,11 +135,25 @@
 }
 
 .euro-popup .leaflet-popup-tip {
-  @apply bg-white/95 backdrop-blur-md;
+  @apply bg-neutral-900 border-b border-r border-white/10;
 }
 
 .euro-popup .leaflet-popup-close-button {
-  @apply text-gray-400 hover:text-gray-800 transition-colors mt-1 mr-1;
+  @apply text-gray-400 hover:text-white transition-colors mt-2 mr-2 !important;
+}
+
+/* Custom Scrollbar para el popup */
+.euro-popup-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.euro-popup-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.euro-popup-scroll::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full;
+}
+.euro-popup-scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/40;
 }
 
 /* ─── Mobile: safe-area para notch / home indicator ─── */
@@ -234,9 +248,9 @@
   justify-content: center;
   border-radius: 50%;
   background: linear-gradient(135deg, #1A1A1A 0%, #2d2d2d 100%);
-  border: 2px solid #E6A11D;
+  border: 2px solid #E30613;
   box-shadow:
-    0 0 0 0 rgba(230, 161, 29, 0.4),
+    0 0 0 0 rgba(227, 6, 19, 0.4),
     0 4px 20px rgba(0, 0, 0, 0.5);
   animation: cluster-pulse 2.8s ease-in-out infinite;
   cursor: pointer;
@@ -246,13 +260,13 @@
 .euro-cluster__ring {
   position: absolute;
   border-radius: 50%;
-  border: 1.5px solid rgba(230, 161, 29, 0.35);
+  border: 1.5px solid rgba(227, 6, 19, 0.35);
   pointer-events: none;
   animation: cluster-ring 2.8s ease-in-out infinite;
 }
 
 .euro-cluster__count {
-  color: #E6A11D;
+  color: #E30613;
   font-weight: 900;
   font-family: Inter, system-ui, sans-serif;
   letter-spacing: -0.5px;
@@ -265,12 +279,12 @@
 @keyframes cluster-pulse {
   0%, 100% {
     box-shadow:
-      0 0 0 0 rgba(230, 161, 29, 0.35),
+      0 0 0 0 rgba(227, 6, 19, 0.35),
       0 4px 20px rgba(0, 0, 0, 0.5);
   }
   50% {
     box-shadow:
-      0 0 0 6px rgba(230, 161, 29, 0.08),
+      0 0 0 6px rgba(227, 6, 19, 0.08),
       0 4px 20px rgba(0, 0, 0, 0.5);
   }
 }
@@ -282,10 +296,10 @@
 
 /* Hover del cluster */
 .euro-cluster:hover {
-  border-color: #f5b832;
+  border-color: #ff3333;
   background: linear-gradient(135deg, #222222 0%, #383838 100%);
   box-shadow:
-    0 0 0 8px rgba(230, 161, 29, 0.12),
+    0 0 0 8px rgba(227, 6, 19, 0.12),
     0 6px 24px rgba(0, 0, 0, 0.6);
   transition: box-shadow 0.2s ease, background 0.2s ease;
 }

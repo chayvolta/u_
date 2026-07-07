@@ -92,40 +92,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -249,40 +330,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -310,40 +472,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -371,44 +614,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -436,48 +769,147 @@ export const mockStores = [
     "cataloged_products_count": 11,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -577,44 +1009,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -642,40 +1164,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -871,48 +1474,147 @@ export const mockStores = [
     "cataloged_products_count": 11,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -940,40 +1642,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1001,48 +1784,147 @@ export const mockStores = [
     "cataloged_products_count": 11,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1238,40 +2120,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1299,40 +2262,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1360,44 +2404,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1545,48 +2679,147 @@ export const mockStores = [
     "cataloged_products_count": 11,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1614,40 +2847,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1675,8 +2989,17 @@ export const mockStores = [
     "cataloged_products_count": 1,
     "catalog_products": [
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1704,8 +3027,17 @@ export const mockStores = [
     "cataloged_products_count": 1,
     "catalog_products": [
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1733,44 +3065,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1798,44 +3220,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1863,44 +3375,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -1928,48 +3530,147 @@ export const mockStores = [
     "cataloged_products_count": 11,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4105120993150",
-        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_3",
+        "description": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_3",
+          "name": "CERVEZA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2141,40 +3842,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2322,44 +4104,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2507,40 +4379,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2688,32 +4641,95 @@ export const mockStores = [
     "cataloged_products_count": 7,
     "catalog_products": [
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2741,40 +4757,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2802,36 +4899,108 @@ export const mockStores = [
     "cataloged_products_count": 8,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -2859,24 +5028,69 @@ export const mockStores = [
     "cataloged_products_count": 5,
     "catalog_products": [
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -3048,40 +5262,121 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -3181,44 +5476,134 @@ export const mockStores = [
     "cataloged_products_count": 10,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "5010149201171",
-        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML"
+        "upc": "SAMUEL_1",
+        "description": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+        "beer_details": {
+          "id": "SAMUEL_1",
+          "name": "CERVEZA STOUT SAMUEL SMITH BOTELLA 355 ML",
+          "title": "ORGANIC CHOCOLATE STOUT",
+          "text": "Sweet Stout con cacao orgánico, elaborada con agua extraída de un pozo de 25 metros bajo tierra. Sabor con final dulce amargo y seco, proveniente del cacao y maltas tostadas. Producto certificado por The Vegan Society.",
+          "abv": 5,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/SamuelSmith-500-ml-Chocolate-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,
@@ -3390,40 +5775,121 @@ export const mockStores = [
     "cataloged_products_count": 9,
     "catalog_products": [
       {
-        "upc": "4105120573871",
-        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_2",
+        "description": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_2",
+          "name": "CERVEZA OSCURA WEIHENSTEPHANER ALEMANIA BOTELLA 500 ML",
+          "title": null,
+          "text": null,
+          "abv": null,
+          "ml": null,
+          "img": null
+        }
       },
       {
-        "upc": "4105120573949",
-        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML"
+        "upc": "WEIHENSTEPHANER_1",
+        "description": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+        "beer_details": {
+          "id": "WEIHENSTEPHANER_1",
+          "name": "CERVEZA CLARA WEIHENSTEPHANER ALEMANIA HEFEWEIZEN BOTELLA 500 ML",
+          "title": "HEFEWEISSBIER",
+          "text": "Un clásico referente de las cervezas de trigo, apariencia ligeramente turbia con matices afrutados de plátano y clavo se entremezclan con sabores de malta para crear una cerveza equilibrada con un carácter ligero y cremoso.",
+          "abv": 5.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Weiss-409x1024.png"
+        }
       },
       {
-        "upc": "4770301229139",
-        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML"
+        "upc": "VOLFAS_2",
+        "description": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_2",
+          "name": "CERVEZA CLARA VOLFAS ENGLEMAN WEIZEN LATA 568 ML",
+          "title": "BALTA PINTA",
+          "text": "Esta Hefeweizen posee un cuerpo turbio gracias a su contenido en levadura. Al no ser filtrada, cuenta con un aroma frutal y a especies.Se aconseja servir en un vaso tipo weizen para proteger su frescura y espuma tan característica.",
+          "abv": 6.7,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEBaltaPintaLata-409x1024.png"
+        }
       },
       {
-        "upc": "4770301230821",
-        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML"
+        "upc": "VOLFAS_1",
+        "description": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+        "beer_details": {
+          "id": "VOLFAS_1",
+          "name": "CERVEZA ÁMBAR VOLFAS ENGLEMAN IPA LATA 568 ML",
+          "title": "IPA",
+          "text": "La primera cerveza de la serie “sabores del mundo” de Volfas Engelman, esta IPA de aroma expresivo e intenso amargor, es el resultado de 4 tipos de lúpulos. Ideal para los amantes del aroma expresivo a lúpulo e intenso amargor.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/IPALATA-1-409x1024.png"
+        }
       },
       {
-        "upc": "4770301234935",
-        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML."
+        "upc": "VOLFAS_3",
+        "description": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+        "beer_details": {
+          "id": "VOLFAS_3",
+          "name": "CERVEZA OSCURA BALTIC PORTER VOLFAS ENGELMAN 568 ML.",
+          "title": "IMPERIAL PORTERIS",
+          "text": "Imperial Porteris es especialmente agradable y fácil de tomar. Posee un sabor y un color único proveniente de la combinación entre maltas lituanas y alemanas, adicionada con lúpulo Perle y Magnum.",
+          "abv": 6,
+          "ml": 568,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/VEPorterisLata-1-409x1024.png"
+        }
       },
       {
-        "upc": "8594404005782",
-        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML"
+        "upc": "KOZEL_1",
+        "description": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_1",
+          "name": "CERVEZA CLARA KOZEL LARGER PREMIUM REPUBLICA CHECA LATA 500 ML",
+          "title": "KOZEL PREMIUM LAGER",
+          "text": "Cerveza dorada, elaborada con 3 tipos de maltas y el lúpulo aromático Premiant. Fácil de beber, tiene un balance de sabor entre delicado amargor y maltosidad dulce. Equilibrada, refrescante y compleja a la vez.",
+          "abv": 4.6,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelLagerPremium.png"
+        }
       },
       {
-        "upc": "8594404008042",
-        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML"
+        "upc": "KOZEL_2",
+        "description": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+        "beer_details": {
+          "id": "KOZEL_2",
+          "name": "CERVEZA OSCURA KOZEL DARK REPUBLICA CHECA EUROPEAN DARK LAGER LATA 500 ML",
+          "title": "KOZEL DARK",
+          "text": "La más popular de esta cervecería.Se elabora utilizando 4 tipos distintos de maltas oscuras, incluyendo maltas caramelizadas. Aunque es una cerveza oscura, su sabor tostado y afrutado, es fácil de beber.",
+          "abv": 3.8,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/KozelDarkLata-NuevaImagen-409x1024.png"
+        }
       },
       {
-        "upc": "8594404110127",
-        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML"
+        "upc": "URQUELL_1",
+        "description": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+        "beer_details": {
+          "id": "URQUELL_1",
+          "name": "CERVEZA CLARA URQUELL PILSNER BOTELLA 330 ML",
+          "title": "PILSNER URQUELL BOTELLA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 355,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/Pilsner-Urquell-500ML-409x1024.png"
+        }
       },
       {
-        "upc": "8594404115115",
-        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML"
+        "upc": "URQUELL_2",
+        "description": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+        "beer_details": {
+          "id": "URQUELL_2",
+          "name": "CERVEZA CLARA URQUELL REPÚBLICA CHECA PILSNER LATA 500 ML",
+          "title": "PILSNER URQUELL LATA",
+          "text": "La primera pilsner del mundo, preparada de forma original por más de 180 años. Color dorado oscuro, aroma maltoso, floral y con notas a lúpulo. Sabor excepcionalmente balanceado entre dulzor maltoso y el amargor del lúpulo Saaz.",
+          "abv": 4.4,
+          "ml": 500,
+          "img": "https://eurocervezas.mx/wp-content/uploads/2023/06/PilsnerUrquell-409x1024.png"
+        }
       }
     ],
     "needs_geocoding": false,

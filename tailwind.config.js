@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         euro: {
-          dark: '#1A1A1A',
-          primary: '#E6A11D',   // Cerveza dorada
-          secondary: '#D9D9D9',
-          accent: '#005f73',
+          dark: '#121212',
+          primary: '#E30613',   // Rojo Eurocervezas
+          secondary: '#E5E5E5',
+          accent: '#FFFFFF',
         }
       }
     },

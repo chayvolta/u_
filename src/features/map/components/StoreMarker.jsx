@@ -76,7 +76,7 @@ export function createStoreIcon(store, isNearest = false) {
 }
 
 // ── Marcador ─────────────────────────────────────────────────
-export function StoreMarker({ store, isNearest = false }) {
+export function StoreMarker({ store, isNearest = false, onSelectProduct }) {
   const map = useMap();
 
   if (!store.latitude || !store.longitude) return null;
@@ -92,68 +92,72 @@ export function StoreMarker({ store, isNearest = false }) {
         click: () => map.flyTo([store.latitude, store.longitude], 16, { duration: 1.0 }),
       }}
     >
-      <Popup className="euro-popup" minWidth={260} maxWidth={320}>
-        <div className="p-1 min-w-[240px]">
+      <Popup className="euro-popup" minWidth={280} maxWidth={340}>
+        <div className="p-0.5 text-white flex flex-col gap-3.5">
 
           {/* Header */}
-          <div className="flex items-center gap-2 mb-2 pb-2 border-b border-gray-100">
-            <div className="bg-euro-primary/20 p-1.5 rounded-lg text-euro-primary flex-shrink-0">
-              <Store size={18} />
+          <div className="flex items-start gap-3">
+            <div className="bg-gradient-to-br from-euro-primary/20 to-euro-primary/5 border border-euro-primary/30 p-2.5 rounded-xl text-euro-primary flex-shrink-0 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]">
+              <Store size={22} strokeWidth={2.5} />
             </div>
-            <div className="min-w-0">
-              <p className="font-extrabold text-euro-dark text-[15px] leading-tight truncate">
+            <div className="min-w-0 flex-1 pt-0.5">
+              <h3 className="font-black text-white text-[17px] leading-tight truncate tracking-tight">
                 {store.chain}
-              </p>
-              <p className="text-xs text-gray-500 font-medium leading-tight">{store.center_name}</p>
+              </h3>
+              <p className="text-xs text-neutral-400 font-medium leading-relaxed mt-1 truncate">{store.center_name}</p>
             </div>
           </div>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-1.5 mb-3">
-            <span className="text-[10px] font-bold tracking-wider bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full uppercase">
+          <div className="flex flex-wrap gap-2">
+            <span className="text-[10px] font-bold tracking-wider bg-white/5 border border-white/10 text-neutral-300 px-2 py-1 rounded-md uppercase">
               {store.store_format}
             </span>
-            <span className="text-[10px] font-bold tracking-wider bg-euro-accent/10 text-euro-accent px-2 py-0.5 rounded-full uppercase flex items-center gap-1">
-              <MapPin size={10} />
+            <span className="text-[10px] font-bold tracking-wider bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 px-2 py-1 rounded-md uppercase flex items-center gap-1">
+              <MapPin size={10} strokeWidth={3} />
               {store.municipality || store.state_normalized}
             </span>
           </div>
 
           {/* KPI — catálogo */}
-          <div className="bg-gradient-to-r from-euro-dark to-gray-800 rounded-xl p-2 flex items-center justify-between text-white shadow-md mb-3">
-            <div className="flex items-center gap-2">
-              <Beer size={16} className="text-euro-primary" />
-              <span className="text-xs font-medium text-gray-300">Catálogo</span>
+          <div className="bg-neutral-950/60 border border-white/5 rounded-xl p-3 flex items-center justify-between">
+            <div className="flex items-center gap-2.5">
+              <div className="bg-euro-primary/10 p-1.5 rounded-lg text-euro-primary">
+                 <Beer size={16} strokeWidth={2.5} />
+              </div>
+              <span className="text-xs font-bold text-neutral-300">Cervezas catalogadas</span>
             </div>
-            <span className="font-bold text-sm">
-              {store.cataloged_products_count}{' '}
-              <span className="text-[10px] text-gray-400 font-normal">prod.</span>
+            <span className="font-black text-lg text-euro-primary drop-shadow-md">
+              {store.cataloged_products_count}
             </span>
           </div>
 
           {/* Lista de productos */}
           {hasProducts && (
-            <div className="mb-2">
-              <div className="flex items-center gap-1.5 mb-1.5">
-                <Package size={12} className="text-euro-accent" />
-                <p className="text-[10px] font-bold uppercase tracking-wider text-euro-accent">
-                  Productos catalogados ({store.catalog_products.length})
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-1.5 px-1">
+                <Package size={12} className="text-neutral-400" strokeWidth={2.5} />
+                <p className="text-[10px] font-bold uppercase tracking-widest text-neutral-400">
+                  Top Productos
                 </p>
               </div>
-              <div
-                className="overflow-y-auto rounded-lg border border-gray-100 bg-gray-50"
-                style={{ maxHeight: '160px' }}
-              >
+              
+              <div className="overflow-y-auto euro-popup-scroll rounded-xl bg-neutral-950/40 border border-white/5 p-1.5" style={{ maxHeight: '180px' }}>
                 {store.catalog_products.map((prod, idx) => (
                   <div
                     key={idx}
-                    className={`px-2 py-1.5 ${
-                      idx < store.catalog_products.length - 1 ? 'border-b border-gray-100' : ''
-                    }`}
+                    className="group relative p-2.5 rounded-lg flex items-center justify-between gap-3 hover:bg-white/10 transition-all duration-200 cursor-pointer border border-transparent hover:border-white/10"
+                    onClick={() => onSelectProduct && onSelectProduct(prod)}
                   >
-                    <p className="text-[11px] font-semibold text-gray-800 leading-snug">
+                    <p className="text-[11px] font-semibold text-neutral-200 leading-snug line-clamp-2 pr-1">
                       {prod.description}
                     </p>
+                    <button
+                      type="button"
+                      className="shrink-0 bg-euro-primary/10 text-euro-primary group-hover:bg-euro-primary group-hover:text-neutral-900 border border-euro-primary/30 px-3 py-1.5 rounded-full text-[10px] font-black transition-all duration-300 whitespace-nowrap shadow-sm"
+                    >
+                      Ver más
+                    </button>
                   </div>
                 ))}
               </div>
@@ -165,9 +169,9 @@ export function StoreMarker({ store, isNearest = false }) {
             href={buildGoogleMapsDirectionsUrl(store.latitude, store.longitude)}
             target="_blank"
             rel="noreferrer"
-            className="mt-2 flex w-full items-center justify-center gap-1.5 rounded-xl bg-euro-accent px-3 py-2 text-xs font-bold text-white shadow-sm transition-all hover:bg-euro-accent/90 hover:shadow-md"
+            className="mt-1 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-b from-white to-neutral-200 text-neutral-950 py-3 text-[13px] font-black shadow-lg transition-transform hover:scale-[1.02] active:scale-[0.98] group"
           >
-            <ExternalLink size={12} />
+            <ExternalLink size={16} strokeWidth={2.5} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
             Cómo llegar
           </a>
         </div>
