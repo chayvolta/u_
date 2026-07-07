@@ -15,6 +15,19 @@ export function App() {
   const userLoc = useUserLocation();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [flyToTarget, setFlyToTarget] = useState(null);
+  const [mapStyle, setMapStyle] = useState('light');
+
+  // Callback para centrar el mapa en una tienda
+  const handleFlyToStore = useCallback((store) => {
+    if (store.latitude && store.longitude) {
+      setFlyToTarget({
+        lat: store.latitude,
+        lng: store.longitude,
+        timestamp: Date.now(),
+      });
+    }
+  }, []);
 
   // Enriquecer tiendas con distancia si hay ubicación del usuario
   const visibleStores = userLoc.location
@@ -84,6 +97,7 @@ export function App() {
         <NearestStoreCard
           nearestStore={nearestStore}
           userLocation={userLoc.location}
+          onFlyToStore={handleFlyToStore}
         />
       </div>
     </div>
@@ -136,6 +150,9 @@ export function App() {
             onClearUserLocation={userLoc.clearLocation}
             nearestStore={nearestStore}
             onSelectProduct={setSelectedProduct}
+            flyToTarget={flyToTarget}
+            mapStyle={mapStyle}
+            setMapStyle={setMapStyle}
           />
         </section>
 

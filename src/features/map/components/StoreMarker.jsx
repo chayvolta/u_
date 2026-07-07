@@ -53,7 +53,7 @@ function buildMarkerSvg(colors, hasCatalog, size = 28) {
 }
 
 // ── Crear DivIcon ────────────────────────────────────────────
-export function createStoreIcon(store, isNearest = false) {
+function createStoreIcon(store, isNearest = false) {
   const colors    = getColors(store.chain);
   const hasCat    = (store.catalog_products?.length ?? 0) > 0;
   // La tienda más cercana es siempre un poco más grande

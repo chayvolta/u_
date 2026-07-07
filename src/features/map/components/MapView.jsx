@@ -42,7 +42,7 @@ function FitStoreBounds({ stores, userLocation }) {
     const userPoint = userLocation ? [[userLocation.lat, userLocation.lng]] : [];
     const points = [...storeBounds, ...userPoint];
     return points.length ? points : null;
-  }, [boundsKey, stores, userLocation]);
+  }, [boundsKey]);
 
   useEffect(() => {
     if (!fittedOnceRef.current && bounds?.length) {
@@ -179,6 +179,17 @@ function FlyToUserAndNearest({ userLocation, nearestStore }) {
   return null;
 }
 
+// ── Fly to target manually (por ejemplo desde NearestStoreCard) ──
+function FlyToTarget({ target }) {
+  const map = useMap();
+  useEffect(() => {
+    if (target?.lat && target?.lng) {
+      map.flyTo([target.lat, target.lng], 16, { duration: 1.5 });
+    }
+  }, [target, map]);
+  return null;
+}
+
 // ── Marcador del usuario ─────────────────────────────────────
 function UserLocationMarker({ location }) {
   if (!location) return null;
@@ -207,11 +218,14 @@ export function MapView({
   onClearUserLocation,
   nearestStore,
   onSelectProduct,
+  flyToTarget,
+  mapStyle = 'light',
+  setMapStyle,
 }) {
   if (loading) {
     return (
       <div className="w-full h-full flex items-center justify-center bg-gray-100">
-        <p className="text-euro-accent font-semibold">Cargando mapa...</p>
+        <p className="text-euro-primary font-semibold">Cargando mapa...</p>
       </div>
     );
   }
@@ -224,10 +238,24 @@ export function MapView({
         className="w-full h-full z-0"
         scrollWheelZoom
       >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+        {mapStyle === 'light' && (
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          />
+        )}
+        {mapStyle === 'dark' && (
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          />
+        )}
+        {mapStyle === 'satellite' && (
+          <TileLayer
+            attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+          />
+        )}
 
         <FitStoreBounds stores={stores} userLocation={userLocation} />
         <ResetViewControl stores={stores} userLocation={userLocation} />
@@ -238,6 +266,7 @@ export function MapView({
           onClearLocation={onClearUserLocation}
         />
         <FlyToUserAndNearest userLocation={userLocation} nearestStore={nearestStore} />
+        <FlyToTarget target={flyToTarget} />
         <UserLocationMarker location={userLocation} />
 
         {/* ── Cluster premium ──────────────────────────────── */}
@@ -262,6 +291,40 @@ export function MapView({
           ))}
         </MarkerClusterGroup>
       </MapContainer>
+
+      {/* Selector flotante de estilos de mapa */}
+      <div className="absolute bottom-24 md:bottom-4 left-4 z-30 bg-white/95 backdrop-blur-md border border-gray-200/50 rounded-2xl p-1.5 shadow-xl flex flex-col md:flex-row gap-1 text-euro-dark">
+        <button
+          onClick={() => setMapStyle && setMapStyle('light')}
+          className={`px-3 py-1.5 rounded-xl text-[10px] font-extrabold transition-all duration-300 ${
+            mapStyle === 'light'
+              ? 'bg-euro-primary text-white shadow-sm'
+              : 'hover:bg-gray-100 text-gray-500 hover:text-gray-700'
+          }`}
+        >
+          Mapa Claro
+        </button>
+        <button
+          onClick={() => setMapStyle && setMapStyle('dark')}
+          className={`px-3 py-1.5 rounded-xl text-[10px] font-extrabold transition-all duration-300 ${
+            mapStyle === 'dark'
+              ? 'bg-euro-primary text-white shadow-sm'
+              : 'hover:bg-gray-100 text-gray-500 hover:text-gray-700'
+          }`}
+        >
+          Mapa Oscuro
+        </button>
+        <button
+          onClick={() => setMapStyle && setMapStyle('satellite')}
+          className={`px-3 py-1.5 rounded-xl text-[10px] font-extrabold transition-all duration-300 ${
+            mapStyle === 'satellite'
+              ? 'bg-euro-primary text-white shadow-sm'
+              : 'hover:bg-gray-100 text-gray-500 hover:text-gray-700'
+          }`}
+        >
+          Satélite
+        </button>
+      </div>
     </div>
   );
 }

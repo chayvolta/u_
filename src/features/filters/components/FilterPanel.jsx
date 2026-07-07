@@ -22,7 +22,7 @@ export function FilterPanel({ filters, updateFilter, clearFilters, options, tota
     filters.chain || filters.store_format || filters.state_normalized || filters.beer_type;
 
   return (
-    <div className="flex flex-col gap-5 h-full overflow-y-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
+    <div className="flex flex-col gap-5 animate-in fade-in slide-in-from-bottom-4 duration-500">
       {/* Encabezado */}
       <div>
         <h2 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-euro-primary to-euro-accent mb-2 drop-shadow-sm">
